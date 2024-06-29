@@ -1,0 +1,12 @@
+# Work Experience section data
+- title: "Backend Developer"
+  period: "January 2021 - Present"
+  img: "/path/to/image.jpg"
+  desc: "Worked on developing scalable backend services using various technologies."
+
+- title: "Software Engineer"
+  period: "June 2018 - December 2020"
+  img: "/path/to/image2.jpg"
+  desc: "Developed and maintained web applications with a focus on performance and scalability."
+
+
