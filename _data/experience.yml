@@ -1,12 +1,26 @@
-# Work Experience section data
-- title: "Backend Developer"
-  period: "January 2021 - Present"
-  img: "/path/to/image.jpg"
+- company: "Tangelo S.A.S"
+  title: "Backend Developer"
+  period: "March 2021 - February 2023"
+  img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpitchbook.com%2Fprofiles%2Fcompany%2F490889-53&psig=AOvVaw2E2qyV3BBSvSU-ktpKJd4z&ust=1720143766003000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjG54KhjIcDFQAAAAAdAAAAABAE"
+  link: "https://www.tangelolatam.com/"
   desc: "Worked on developing scalable backend services using various technologies."
+  technologies:
+    - name: "Django"
+      icon: "https://cdn.iconscout.com/icon/free/png-256/free-django-3550620-2970205.png"
+      link: "https://www.djangoproject.com/"
+    - name: "Python"
+      icon: "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
+      link: "https://www.python.org/"
 
-- title: "Software Engineer"
+- company: "Another Company"
+  title: "Software Engineer"
   period: "June 2018 - December 2020"
   img: "/path/to/image2.jpg"
   desc: "Developed and maintained web applications with a focus on performance and scalability."
-
-
+  technologies:
+    - name: "Java"
+      icon: "/path/to/java-icon.png"
+      link: "https://www.java.com/"
+    - name: "Docker"
+      icon: "/path/to/docker-icon.png"
+      link: "https://www.docker.com/"
