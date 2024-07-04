@@ -1,17 +1,23 @@
 # projects section data
+
+- name: OTTB - Personal Blog
+  gh_user: hdballestan
+  repo: otbb.github.io
+  img: https://www.textures4photoshop.com/tex/thumbs/crow-png-thumb8.png
+
 - name: Dragulescu_and_Yakovenko_model
   gh_user: hdballestan
   repo: Dragulescu_and_Yakovenko_model
   img: https://lespetitsbonhommes.org/wp-content/uploads/2024/04/illustration-inegalite-richesses-pauvres-sobriete-propriete-mefiance-oisivete-capitalisme-ecarts-sociaux-patrimoine-financier.png
 
-- name: Dragulescu_and_Yakovenko_model
+- name: 3 FastAPI services deployed on Google Cloud Run
   gh_user: hdballestan 
-  repo: Dragulescu_and_Yakovenko_model
-  img: https://lespetitsbonhommes.org/wp-content/uploads/2024/04/illustration-inegalite-richesses-pauvres-sobriete-propriete-mefiance-oisivete-capitalisme-ecarts-sociaux-patrimoine-financier.png
+  repo: ETL_con_API_Publica
+  img: https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png 
 
-- name: A Wordle Sover as Blazer WebAssembly
+- name: FastAPI_X_Postgresql
   gh_user: hdballestan
-  repo: Dragulescu_and_Yakovenko_model
-  img: https://lespetitsbonhommes.org/wp-content/uploads/2024/04/illustration-inegalite-richesses-pauvres-sobriete-propriete-mefiance-oisivete-capitalisme-ecarts-sociaux-patrimoine-financier.png
+  repo: Postgresql_FastAPI
+  img: https://cdn.pixabay.com/photo/2012/04/12/21/34/elephant-30739_640.png 
 
 
