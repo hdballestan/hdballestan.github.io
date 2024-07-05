@@ -48,9 +48,11 @@ robots: noindex
           <h5 class="experience-title">{{ experience.title }}</h5>
           <p class="experience-period">{{ experience.period }}</p>
           <div class="experience-desc">
-            {% for exp in experience.desc %}
-          <li>{{exp.item}}</li>
-            {% endfor %}
+            <ul>
+              {% for exp in experience.desc %}
+                <li>{{exp.item}}</li>
+              {% endfor %}
+            </ul>
           </div>
           <div class="experience-technologies">
             {% for tech in experience.technologies %}

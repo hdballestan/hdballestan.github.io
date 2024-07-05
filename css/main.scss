@@ -64,6 +64,8 @@ pre.highlight code,
 .experience-timeline {
   list-style: none;
   padding: 0;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .experience-item {
@@ -84,6 +86,7 @@ pre.highlight code,
 
 .experience-details {
   text-align: center;
+  max-width: 100%;
 }
 
 .experience-company {
@@ -108,6 +111,25 @@ pre.highlight code,
   margin-bottom: 15px;
   text-align: left;
   font-size: 1em;
+  max-width: 100%;
+}
+
+.experience-desc ul {
+  padding-left: 0;
+}
+
+.experience-desc ul li {
+  margin-bottom: 5px;
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+.experience-desc ul li::before {
+  content: "\2021";
+  position: absolute;
+  left: 0;
+  color: #000;
 }
 
 .experience-technologies {
