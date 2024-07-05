@@ -40,7 +40,7 @@ robots: noindex
       <li class="experience-item">
         <div class="experience-image">
           <a href="{{ experience.link }}" target="_blank">
-            <img class="experience-img" src="{{ experience.img | prepend: site.baseurl }}" alt="{{ experience.company }}">
+            <img class="experience-img" src="{{ experience.img | prepend: site.baseurl }}" alt="{{ experience.company }}" style="height: 120px; width: 160px; object-fit: contain">
           </a>
         </div>
         <div class="experience-details">
@@ -48,7 +48,9 @@ robots: noindex
           <h5 class="experience-title">{{ experience.title }}</h5>
           <p class="experience-period">{{ experience.period }}</p>
           <div class="experience-desc">
-            {{ experience.desc | markdownify }}
+            {% for exp in experience.desc %}
+          <li>{{exp.item}}</li>
+            {% endfor %}
           </div>
           <div class="experience-technologies">
             {% for tech in experience.technologies %}
