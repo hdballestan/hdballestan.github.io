@@ -1,9 +1,10 @@
-- company: "Tangelo S.A.S"
+- company: "Geophysics GPR Colombia S.A.S"
   title: "Backend Developer"
-  period: "March 2021 - February 2023"
-  img: "https://image.pitchbook.com/I3OPCb8aaGLeVOqFNFjZMZ5aGcb1643627345060_200x200"
+  period: "February 2023 - Current"
+  img: "/images/gpr_logo.jpg"
   link: "https://www.tangelolatam.com/"
-  desc: "Worked on developing scalable backend services using various technologies."
+  desc:
+    - item: "Building and optimizing backends using Django/Django Rest Framework"
   technologies:
     - name: "Django"
       icon: "https://cdn.iconscout.com/icon/free/png-256/free-django-3550620-2970205.png"
@@ -12,14 +13,31 @@
       icon: "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
       link: "https://www.python.org/"
 
-- company: "Another Company"
-  title: "Software Engineer"
-  period: "June 2018 - December 2020"
-  img: "/path/to/image2.jpg"
-  desc: "Developed and maintained web applications with a focus on performance and scalability."
+- company: "Tangelo S.A.S"
+  title: "Backend Developer"
+  period: "March 2021 - February 2023"
+  img: "https://image.pitchbook.com/I3OPCb8aaGLeVOqFNFjZMZ5aGcb1643627345060_200x200"
+  link: "https://www.tangelolatam.com/"
+  desc:
+    - item: "Building and optimizing backends using Django/Django Rest Framework"
   technologies:
-    - name: "Java"
-      icon: "/path/to/java-icon.png"
+    - name: "Django"
+      icon: "https://cdn.iconscout.com/icon/free/png-256/free-django-3550620-2970205.png"
+      link: "https://www.djangoproject.com/"
+    - name: "Python"
+      icon: "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png"
+      link: "https://www.python.org/"
+
+
+- company: "Servicios Geológicos Integrados S.A.S"
+  title: "Research Advisor"
+  period: "June 2018 - December 2020"
+  img: "/images/sgi.jpg"
+  desc:
+    - item: "Building and optimizing backends using Django/Django Rest Framework"
+  technologies:
+    - name: "Python"
+      icon: "https://cdn.iconscout.com/icon/free/png-256/free-django-3550620-2970205.png"
       link: "https://www.java.com/"
     - name: "Docker"
       icon: "/path/to/docker-icon.png"
